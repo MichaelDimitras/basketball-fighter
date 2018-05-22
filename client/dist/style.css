@@ -1,0 +1,131 @@
+
+#app {
+  margin: 0 auto 0 auto;
+  font-family: 'andale mono';
+  background-color: 'aliceblue';
+  width: 80vw;
+}
+
+/*
+ * Player Pic
+ */
+.picContainer {
+  display: inline-block;
+}
+.playerPic {
+    height: 9vw;
+    width: 10vw;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 1vh 2vw 1vh 2vw;
+}
+
+.picContainer h2 {
+  display: inline;
+  font-size: 15px;
+}
+
+/*
+ * Scoreboard
+ */
+ .scoreboardContainer {
+  min-height: 16vh;
+  border: solid;
+  border-width: 4px;
+  border-color: black;
+  text-align: center;
+ }
+
+ .scoreboardContainer h3 {
+  min-height: 3.5vh;
+ }
+
+ .scoreboardGrid {
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw;
+ }
+
+ .teamOneScore {
+    grid-column-start: 1; 
+    grid-column-end: 1;
+ }
+
+ .teamTwoScore {
+    grid-column-start: 3; 
+    grid-column-end: 3;
+ }
+
+ .quarter {
+    grid-column-start: 2; 
+    grid-column-end: 2;
+ }
+
+/*
+ * Team
+ */
+ .teamContainer {
+  min-height: 25vh;
+  border: solid;
+  border-width: 4px;
+  border-color: black;
+  text-align: center;
+}
+
+ /*
+ * Team Stats
+ */
+.stats {
+  height: 6vh;
+  padding: 3vh 0 0 0;
+}
+
+.stats h3 {
+  display: inline;
+  margin: 0 3vw 0 3vw;
+
+}
+/*
+ * Selector
+ */
+ .button {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  background-color: #CCC;
+  margin-top: 1vh;
+  min-height: 3vh;
+  font-size: 1em;
+ }
+
+ .team {
+  position: relative;
+ }
+
+ .selectContainer .playerPic {
+  height: 7.1vw;
+  width: 8vw;
+  margin: 1vh .5vw 1vh .5vw;
+ }
+ .selectItemsContainer {
+  width: 50vw;
+  height: 50vh;
+  overflow-y: auto;
+ }
+
+ /*
+ * Selector Item
+ */
+.playerSelectItem {
+    margin: 0 0 0 0;
+    text-align: left;
+    border: solid 2px black;
+}
+
+.playerSelectItem:hover {
+    background: #cbcbcb
+}
+.playerName {
+    display: inline
+}

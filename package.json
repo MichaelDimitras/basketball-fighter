@@ -1,0 +1,39 @@
+{
+  "name": "basketball-fighter",
+  "version": "1.0.0",
+  "description": "A basketball fighting simulator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelDimitras/basketball-fighter.git"
+  },
+  "keywords": [
+    "React",
+    "Basketball",
+    "Node"
+  ],
+  "author": "Michael Dimitras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelDimitras/basketball-fighter/issues"
+  },
+  "homepage": "https://github.com/MichaelDimitras/basketball-fighter#readme",
+  "dependencies": {
+    "react-pose": "^1.6.4",
+    "reactjs-popup": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
